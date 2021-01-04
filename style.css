@@ -15,16 +15,20 @@ h3{
     font-family: 'Oswald', sans-serif;
 }
 p{
-    color:dimgray;
+    color:#696969;
     margin-bottom: 30px;
+    font-size: 16px;
 }
 section{
-    margin-bottom: 150px;
+    padding-bottom: 150px;
+    height: 500px;
 }
-.name_highlighted{
+.orange_highlighted{
     color:chocolate;
 }
-
+.first_section{
+    padding-top: 80px;
+}
 .half_width{
     width: 40%;
     float: left;
@@ -37,14 +41,14 @@ section{
 .top_banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .bottom_banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
+    /* height: 500px; */
 
 }
 
@@ -58,4 +62,27 @@ section{
 }
 .link_button:hover{
     background-image: linear-gradient(#f07651, #f14430);
+}
+
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.single_experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding: 0 30px;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF9A75, #FF684B);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0012FF, #00E2FF);
+    border-image-slice: 1;
 }
