@@ -1,14 +1,25 @@
 body{
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
- 
-
 }
 h1{
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
+h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
 h3{
     font-family: 'Oswald', sans-serif;
+}
+p{
+    color:dimgray;
+    margin-bottom: 30px;
+}
+section{
+    margin-bottom: 150px;
 }
 .name_highlighted{
     color:chocolate;
@@ -22,4 +33,29 @@ h3{
 }
 .half_width img{
     width: 100%;
+}
+.top_banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.bottom_banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+
+}
+
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #F78B6A, #FB6655);
+    padding: 10px 20px;
+    border-radius: 3%;
+    color: #fff;
+    font-weight: 600;
+}
+.link_button:hover{
+    background-image: linear-gradient(#f07651, #f14430);
 }
